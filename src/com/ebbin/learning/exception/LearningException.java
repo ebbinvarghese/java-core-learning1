@@ -9,5 +9,9 @@ public class LearningException extends Exception {
 	public LearningException(LearningExceptions type) {
 		super(type.getMessage());
 	}
+	
+	public LearningException(LearningExceptions type, Throwable t) {
+		super(type.getMessage(), t);
+	}
 
 }

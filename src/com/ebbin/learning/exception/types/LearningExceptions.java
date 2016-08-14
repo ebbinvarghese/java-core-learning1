@@ -7,7 +7,9 @@ public enum LearningExceptions {
 	PALINDROME_INVALID_FORMAT("Core-Basic-Palindrome: Invalid input format. Number expected"),
 	BUBBLE_SORT_ARRAY_LOWER_LIMIT("Core-Basic-BubbleSort: Cannot specify array with less than 2 elements"),
 	BUBBLE_SORT_ARRAY_UPPER_LIMIT("Core-Basic-BubbleSort: Cannot specify array with more than 5 elements"),
-	BUBBLE_SORT_INVALID_FORMAT("Core-Basic-BubbleSort: Invalid input format. Numeric array expected");
+	BUBBLE_SORT_INVALID_FORMAT("Core-Basic-BubbleSort: Invalid input format. Numeric array expected"),
+	FILE_COPY_FILE_NOT_FOUND("Core-Basic-FileCopy: Invalid input file. File not found"),
+	FILE_COPY_IO_EXCEPTION("Core-Basic-FileCopy: Cannot perform file operation. I/O Error occured");
 	
 	private String message;
 	
