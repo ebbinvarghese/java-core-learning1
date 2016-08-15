@@ -5,6 +5,7 @@ import com.ebbin.learning.run.Run;
 
 import com.ebbin.learning.core.basic.FibonacciSeries;
 import com.ebbin.learning.core.basic.PalindromeNumber;
+import com.ebbin.learning.core.basic.SimpleThread;
 import com.ebbin.learning.core.basic.BubbleSort;
 import com.ebbin.learning.core.basic.FileCopy;
 
@@ -19,7 +20,8 @@ public class Main {
 //			Run run = new FibonacciSeries();
 //			Run run = new PalindromeNumber();
 //			Run run = new BubbleSort();
-			Run run = new FileCopy();
+//			Run run = new FileCopy();
+			Run run = new SimpleThread();
 			run.runApp();
 		}
 		catch(LearningException le) {
